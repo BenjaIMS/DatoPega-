@@ -31,11 +31,11 @@
         <div *ngIf="form.controls.password.errors?.['required']">La contraseña es requerrida</div>
       </div>
 
+      <ion-checkbox>Acepto los terminos y condiciones</ion-checkbox>
 
       <ion-button class="submit" type="submit" expand="block" mode="ios" fill="outline" [disabled]="form.invalid">
         Registrarse
         </ion-button>
-
     </form>
 
   </div>
